@@ -14,7 +14,7 @@
     </div>
 
     <div class="container">
-      <form class="add-toy-form">
+      <form class="add-toy-form" id="toyform">
         <h3>Create a toy!</h3>
 
         <input
@@ -27,9 +27,9 @@
         <br />
         <input
           type="text"
-          name="image"
+          name="all of us"
           value=""
-          placeholder="Enter a toy's image URL..."
+          placeholder="Enter a toy's image URL..."https://www.bing.com/images/search?q=Toy%20Story%20Toys&FORM=IQFRBA&id=053C079FA411597D1F116CFA7E036E9AD2726809
           class="input-text"
         />
         <br />
@@ -46,6 +46,12 @@
     </p>
 
     <div id="toy-collection"></div>
-    <script type="text/javascript" src="src/index.js"></script>
+    <div class="card">
+      <h2>Woody</h2>
+      <img src="[toy_image_url]" class="toy-avatar" />
+      <p>4 Likes</p>
+      <button class="like-btn" id="[toy_id]">Like ❤️</button>
+    </div>
+    <script defer type="text/javascript" src="src/index.js"></script>
   </body>
 </html>
